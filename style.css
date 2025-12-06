@@ -1,0 +1,90 @@
+/* Make the page center and clean */
+body {
+    font-family: sans-serif;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main card */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #05051c;
+}
+
+/* Output box */
+.output-box {
+    background: #f0f0f0;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#passwordDisplay {
+    font-size: 14px;
+    word-break: break-all;
+}
+
+/* Copy button */
+#copyBtn {
+    border: none;
+    background: #ddd;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Style the number input */
+#lengthInput {
+    padding: 6px 10px;
+    border: none;
+    background: #e2efb1af;
+    border-radius: 10px; /* <-- makes it rounder */
+    font-size: 14px;
+    width: 35px;
+}
+
+/* Style the label text */
+.controls label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Main generate button */
+.main-btn {
+    width: 100%;
+    background: rgb(241, 160, 160);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.main-btn:hover {
+    background: #dd5858;
+}
